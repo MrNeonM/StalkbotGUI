@@ -1,6 +1,7 @@
 ﻿using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Object;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
 using DSharpPlus.CommandsNext.Exceptions;
@@ -59,6 +60,8 @@ namespace StalkbotGUI.Stalkbot.Utilities
                         $"{e.Context.User.Username} used {e.Command.Name} command in #{e.Context.Channel.Name}, but it was disabled.",
                         LogLevel.Warning);
                     await e.Context.Message.CreateReactionAsync(DiscordEmoji.FromUnicode("🔕"));
+                    return;
+                    await e.Context.Message.RespondAsync("der command is disabled lol");
                     return;
                 }
 
