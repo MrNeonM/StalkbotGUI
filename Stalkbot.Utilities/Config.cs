@@ -10,7 +10,7 @@ namespace StalkbotGUI.Stalkbot.Utilities
     public sealed class Config
     {
         // Discord
-        public string Token { get; set; } = "changeme";
+        public string Token { get; set; } = "ODM2NTEwNjI2OTU1NjU3Mjg3.YIfDOw.6-xV18DiyQ7slQiIfT0kLDEdqvU";
         public string Prefix { get; set; } = "change!";
         // Webcam
         public bool CamEnabled { get; set; } = false;
