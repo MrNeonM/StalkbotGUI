@@ -11,7 +11,7 @@ namespace StalkbotGUI.Stalkbot.Utilities
     {
         // Discord
         public string Token { get; set; } = "ODM2NTEwNjI2OTU1NjU3Mjg3.YIfDOw.6-xV18DiyQ7slQiIfT0kLDEdqvU";
-        public string Prefix { get; set; } = "change!";
+        public string Prefix { get; set; } = "ne!";
         // Webcam
         public bool CamEnabled { get; set; } = false;
         public int CamTimer { get; set; } = 3000;
